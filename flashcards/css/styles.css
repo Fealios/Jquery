@@ -1,0 +1,6 @@
+.flashcards {
+  border: 3px solid black;
+  height: 400px;
+  width: 400px;
+  display:inline-block;
+}
