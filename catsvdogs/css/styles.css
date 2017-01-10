@@ -1,3 +1,11 @@
 img {
   width: 100%;
 }
+
+.cat-background{
+  background-color: orange;
+}
+
+.dog-background {
+  background-color:green;
+}
