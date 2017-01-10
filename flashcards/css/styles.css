@@ -1,6 +1,25 @@
 .flashcards {
   border: 3px solid black;
-  height: 400px;
-  width: 400px;
-  display:inline-block;
+  height: 450px;
+  width: 450px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url(http://static1.squarespace.com/static/52c5b338e4b03b17dfaf44e4/52c6464ce4b0772523fc0011/53b48aa4e4b04bc8305a0b7f/1472695104172/index_card.png?format=1000w);
+}
+
+
+body {
+  background-color: #FFE4B5;
+}
+
+p {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.background {
+  background-color: white;
 }
