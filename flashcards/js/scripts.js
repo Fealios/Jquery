@@ -29,7 +29,7 @@
 // })
 
 $(document).ready(function(){
-  $(this).click(function(){
+  $('h2').click(function(){
     $(this).next("p").toggleClass("hidden");
   });
 });
