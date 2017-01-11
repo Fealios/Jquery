@@ -2,5 +2,11 @@ $(document).ready(function(){
   $('h2').click(function(){
     $(this).next("p").toggleClass("hidden");
     $(this).parent("div").toggleClass('flashcard-front');
+    $(this).toggleClass("hidden");
+  });
+  $('p').click(function(){
+    $(this).toggleClass("hidden");
+    $(this).parent("div").toggleClass('flashcard-front');
+    $(this).siblings("h2").toggleClass("hidden");
   });
 });
